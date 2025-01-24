@@ -11,6 +11,8 @@ export default {
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",
+        'bt_current': '#60C2AA',
+        'bg_hover_button': '#F7F7F7',
       },
     },
   },
