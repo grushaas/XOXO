@@ -1,14 +1,16 @@
 import PlayersTable from "../ui/xoxo/playersTable"
-import Timer from "@/app/ui/xoxo/timer";
+import Game from "../ui/xoxo/game";
 
 export default function Page() {
     return (
-        <div className="flex flex-row">
-            <div>
+        <div className="flex h-screen">
+            <div className="flex-none w-14 p-4">
                 <PlayersTable />
             </div>
-            <div className="ml-[21rem]">
-                <Timer />
+            <div className="flex flex-col items-center flex-grow p-4">
+                <div className="flex justify-center mt-10">
+                    <Game />
+                </div>
             </div>
         </div>
     )
